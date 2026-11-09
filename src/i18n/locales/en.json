@@ -1,0 +1,27 @@
+{
+  "toolbar": {
+    "textCard": "Text",
+    "textCardTitle": "Text card",
+    "photoCard": "Photo",
+    "photoCardTitle": "Image card",
+    "stringColors": {
+      "pine": "Pine",
+      "terracotta": "Terracotta",
+      "ochre": "Ochre",
+      "azure": "Azure"
+    },
+    "export": "Export board",
+    "import": "Import board",
+    "clear": "Clear board",
+    "clearConfirm": "Clear entire board?"
+  },
+  "infoBadge": {
+    "title": "Connections",
+    "description": "Interactive board for data, notes, and visual connections.",
+    "github": "GitHub",
+    "ariaLabel": "About"
+  },
+  "common": {
+    "version": "v1.0"
+  }
+}

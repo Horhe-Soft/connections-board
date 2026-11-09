@@ -1,0 +1,27 @@
+{
+  "toolbar": {
+    "textCard": "Текст",
+    "textCardTitle": "Карточка с текстом",
+    "photoCard": "Фото",
+    "photoCardTitle": "Карточка с изображением",
+    "stringColors": {
+      "pine": "Хвоя",
+      "terracotta": "Терракота",
+      "ochre": "Охра",
+      "azure": "Лазурь"
+    },
+    "export": "Экспорт доски",
+    "import": "Импорт доски",
+    "clear": "Очистить доску",
+    "clearConfirm": "Очистить всю доску?"
+  },
+  "infoBadge": {
+    "title": "Connections",
+    "description": "Интерактивная доска для данных, заметок и визуальных связей.",
+    "github": "GitHub",
+    "ariaLabel": "О приложении"
+  },
+  "common": {
+    "version": "v1.0"
+  }
+}
