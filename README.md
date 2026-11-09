@@ -45,7 +45,6 @@ typescript@7.0.2 vite@8.3.6 oxlint@1.92.0 @types/react@19.3.0 @types/react-dom@1
 
 ```text
 connections-board/
-├── public/                 # Статические ресурсы
 ├── src/
 │   ├── assets/             # Иконки, изображения и стили
 │   ├── components/         # Компоненты приложения
