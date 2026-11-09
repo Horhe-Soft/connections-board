@@ -1,4 +1,4 @@
-# Connections
+# <img width="64" height="64" alt="favicon" src="https://github.com/user-attachments/assets/f7a66263-a25c-4ec9-a9c2-41f104b9a301" /> Connections
 
 > **Интерактивная доска для заметок, структурирования данных и визуализации связей прямо в браузере.**
 
