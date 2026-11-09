@@ -55,7 +55,7 @@ export function InfoBadge() {
           <div className="h-px w-full bg-[#232c23]" />
 
           <a
-            href="https://github.com/Horhe-Soft"
+            href="https://github.com/Horhe-Soft/connections-board"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-between px-3 py-2 rounded-xl bg-[#1b221b] hover:bg-[#232d23] border border-[#2b362b] text-xs font-medium text-[#c2eec0] transition-colors"
