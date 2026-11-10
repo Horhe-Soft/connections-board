@@ -18,14 +18,14 @@ export function StringEdge({
 
   const [isFocused, setIsFocused] = useState(false);
 
-  const startY = sourceY + 14;
-  const endY = targetY + 14;
+  const startY = sourceY;
+  const endY = targetY;
 
   const dx = targetX - sourceX;
   const dy = endY - startY;
   const dist = Math.hypot(dx, dy);
 
-  const sag = - Math.min(Math.max(dist * 0.08, 15), 60);
+  const sag = - Math.min(Math.max(dist * 0.18, 15), 60);
   const controlX = (sourceX + targetX) / 2;
   const controlY = (startY + endY) / 2 + sag;
 
