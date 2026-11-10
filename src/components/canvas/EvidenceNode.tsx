@@ -40,7 +40,7 @@ export function EvidenceNode({ id, data, selected }: NodeProps<EvidenceNodeType>
       >
         {/* Точка соединения */}
         <div
-          title="Потяни, чтобы создать связь"
+          title="Drag to connect..."
           style={{ backgroundColor: currentTheme.accent }}
           className="absolute -top-3.5 left-1/2 -translate-x-1/2 h-7 px-3 rounded-full flex items-center justify-center gap-1.5 cursor-crosshair shadow-md transition-transform hover:scale-105 z-10"
         >
@@ -88,7 +88,7 @@ export function EvidenceNode({ id, data, selected }: NodeProps<EvidenceNodeType>
               deleteNode(id);
             }}
             className="nodrag text-stone-400 hover:text-red-400 cursor-pointer p-1 rounded-full hover:bg-white/5 transition"
-            title="Удалить карточку"
+            title="Delete"
           >
             <Trash2 size={14} />
           </button>

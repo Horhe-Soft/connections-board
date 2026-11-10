@@ -77,7 +77,6 @@ function DetectiveCanvas() {
         connectionMode={ConnectionMode.Loose}
         zoomOnDoubleClick={false}
         onDoubleClick={(e) => {
-          // Двойной клик по пустому месту создает записку
           if ((e.target as HTMLElement).classList.contains('react-flow__pane')) {
             const pos = screenToFlowPosition({ x: e.clientX - 120, y: e.clientY - 40 });
             addNote(pos);
@@ -96,7 +95,7 @@ function DetectiveCanvas() {
         <Controls
           position="bottom-left"
           showInteractive={false}
-          className="!m-6 !flex !flex-col !gap-1 !p-1.5 !rounded-2xl !bg-[#131713]/90 !border !border-[#232c23] !shadow-[0_8px_24px_rgba(0,0,0,0.5)] !backdrop-blur-xl [&_button]:!w-9 [&_button]:!h-9 [&_button]:!rounded-xl [&_button]:!border-0 [&_button]:!bg-transparent [&_button]:!fill-[#b0bab0] hover:[&_button]:!bg-white/5 active:[&_button]:!scale-90 [&_button]:!transition-all"
+          className="m-6! flex! flex-col! gap-1! p-1.5! rounded-2xl! bg-[#131713]/90! border! border-[#232c23]! shadow-[0_8px_24px_rgba(0,0,0,0.5)]! backdrop-blur-xl! [&_button]:w-9! [&_button]:h-9! [&_button]:rounded-xl! [&_button]:border-0! [&_button]:bg-transparent! [&_button]:fill-[#b0bab0]! active:[&_button]:scale-90! [&_button]:transition-all!"
         />
       </ReactFlow>
       <InfoBadge />

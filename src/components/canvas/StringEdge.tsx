@@ -73,7 +73,7 @@ export function StringEdge({
                   onFocus={() => setIsFocused(true)}
                   onBlur={() => setIsFocused(false)}
                   onChange={(e) => updateEdgeData(id, { comment: e.target.value })}
-                  placeholder="Связь..."
+                  placeholder="Description..."
                   className="w-24 text-[11px] text-stone-200 bg-transparent focus:outline-none focus:w-36 transition-all font-sans"
                 />
                 <button
@@ -81,7 +81,7 @@ export function StringEdge({
                     e.stopPropagation();
                     deleteEdge(id);
                   }}
-                  title="Удалить связь"
+                  title="Delete"
                   className="text-stone-400 hover:text-red-400 cursor-pointer p-0.5 rounded-full hover:bg-white/10"
                 >
                   <X size={11} />

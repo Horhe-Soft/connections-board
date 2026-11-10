@@ -42,7 +42,7 @@ export function Toolbar() {
 
   return (
     <nav
-      aria-label={t('toolbar.ariaLabel', 'Панель инструментов')}
+      aria-label={t('toolbar.ariaLabel', 'Toolbar')}
       className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 px-3 py-2 rounded-full bg-[#131713]/90 border border-[#232c23] shadow-[0_12px_32px_rgba(0,0,0,0.6)] backdrop-blur-xl select-none"
     >
       <button

@@ -22,5 +22,5 @@ body,
   max-height: 14px;
 }
 .react-flow__controls button:hover svg {
-  fill: #c2eec0 !important;
+  fill: #40613f !important;
 }
