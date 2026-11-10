@@ -32,7 +32,7 @@ export function EvidenceNode({ id, data, selected }: NodeProps<EvidenceNodeType>
           backgroundColor: data.color || currentTheme.bg,
           borderColor: selected ? currentTheme.accent : currentTheme.border,
         }}
-        className={`relative w-full h-full min-w-[220px] min-h-[140px] flex flex-col p-4 rounded-[26px] border transition-all duration-200 select-none shadow-lg ${
+        className={`relative w-full h-full min-w-55 min-h-35 flex flex-col p-4 rounded-[26px] border transition-all duration-200 select-none shadow-lg ${
           selected
             ? 'ring-2 shadow-2xl scale-[1.01]'
             : 'hover:border-stone-500'
@@ -111,7 +111,7 @@ export function EvidenceNode({ id, data, selected }: NodeProps<EvidenceNodeType>
           type="text"
           value={data.title}
           onChange={(e) => updateNodeData(id, { title: e.target.value })}
-          placeholder="Заголовок..."
+          placeholder="Title..."
           className="nodrag w-full text-stone-100 font-medium tracking-wide bg-transparent focus:outline-none mb-1.5 text-sm placeholder:text-stone-500 font-sans shrink-0"
         />
 
@@ -119,7 +119,7 @@ export function EvidenceNode({ id, data, selected }: NodeProps<EvidenceNodeType>
         <textarea
           value={data.content}
           onChange={(e) => updateNodeData(id, { content: e.target.value })}
-          placeholder="Заметка или детали..."
+          placeholder="Note or details..."
           className="nodrag nowheel w-full flex-1 text-xs text-stone-300 bg-black/20 p-2.5 rounded-xl border border-white/5 resize-none focus:outline-none focus:border-white/20 transition-colors font-sans leading-relaxed placeholder:text-stone-600"
         />
       </div>
